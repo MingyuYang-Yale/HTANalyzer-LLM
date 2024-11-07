@@ -39,7 +39,7 @@ A reasoning engine directs the user's queries to the correct agent.
 ## Installation
 
 ### Platform Requirements
-spatiAlytica is designed to run on Google Cloud Platform's Vertex AI.
+spatiAlytica is designed to run on Google Cloud Platform's Vertex AI. Users should have a corresponding project ID and billing info.
 
 ### Dependencies
 Required Python packages:
@@ -78,7 +78,7 @@ import matplotlib.pyplot as plt
 
 ### Vertex AI Setup
 ```
-vertexai.init(project="isb-cgc-external-004", location="us-central1")
+vertexai.init(project="your_project_id_here", location="us-central1")
 model = GenerativeModel("gemini-1.5-flash-002")
 ```
 
