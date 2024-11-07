@@ -54,5 +54,7 @@ pandas==2.2.2
 matplotlib==3.7.1
 google==2.0.3
 vertexai==1.70.0
+anndata-0.11.0
+
 
 
