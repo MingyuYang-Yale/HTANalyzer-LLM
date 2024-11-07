@@ -24,11 +24,12 @@ Our approach uses three agents to allow for:
 - Data integration with HTAN resources
 - Bioinformatics analysis using standard Python packages
 - Interactive chat interface providing human-friendly output
-
+- 
 A reasoning engine directs the user's queries to the correct agent.
-<img width="617" alt="image" src="https://github.com/user-attachments/assets/dc634dd7-6013-4b68-94c8-089ca1396378">
-<img width="546" alt="image" src="https://github.com/user-attachments/assets/6665cbd9-34cb-49fb-9d17-95cf8710c8a8">
-
+<div style="text-align: center;">
+  <img width="617" alt="image" src="https://github.com/user-attachments/assets/dc634dd7-6013-4b68-94c8-089ca1396378">
+  <img width="546" alt="image" src="https://github.com/user-attachments/assets/6665cbd9-34cb-49fb-9d17-95cf8710c8a8">
+</div>
 
 ## Examples of questions you can ask spatiAlytica:
 * Download all datasets in HTAN with 10x Visium spatial information for melanoma.
