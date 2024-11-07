@@ -24,7 +24,7 @@ Our approach uses three agents to allow for:
 - Data integration with HTAN resources
 - Bioinformatics analysis using standard Python packages
 - Interactive chat interface providing human-friendly output
-- 
+
 A reasoning engine directs the user's queries to the correct agent.
 <div style="text-align: center;">
   <img width="617" alt="image" src="https://github.com/user-attachments/assets/dc634dd7-6013-4b68-94c8-089ca1396378">
