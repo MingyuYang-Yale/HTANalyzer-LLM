@@ -19,9 +19,13 @@ A growing number of spatial databases are being generated and are publicly avail
 
 SpatiAlytica is a multiagent large language model specifically designed to analyze spatial transcriptomic data from the Human Tumor Atlas Network (HTAN). SpatiAlytica allows users to interact with datasets on HTAN using conversational, natural language queries, making spatial transcriptomics analysis accessible to those with limited expertise in bioinformatics.
 
-## Our approach: 
+## Approach
+Our approach uses three agents to allow for:
+- Data integration with HTAN resources
+- Bioinformatics analysis using standard Python packages
+- Interactive chat interface providing human-friendly output
 
-Our approach uses three agents to allow for data integration with HTAN resources, bioinformatics analysis using standard Python packages, and an interactive chat interface that provides output in a human-friendly format that is easy to understand. A fourth agent directs the user’s queries to the correct agent.
+A reasoning engine directs the user's queries to the correct agent.
 
 <img width="477" alt="image" src="https://github.com/user-attachments/assets/ea90600d-656f-4dc1-8d98-0390f9cb6d99">
 
