@@ -23,7 +23,7 @@ SpatiAlytica is a multiagent large language model specifically designed to analy
 
 Our approach uses three agents to allow for data integration with HTAN resources, bioinformatics analysis using standard Python packages, and an interactive chat interface that provides output in a human-friendly format that is easy to understand. A fourth agent directs the user’s queries to the correct agent.
 
-<img width="497" alt="Screenshot 2024-11-07 at 8 58 11 AM" src="https://github.com/user-attachments/assets/615492ae-b450-4ca8-9000-870fd1bb75a0">
+<img width="477" alt="image" src="https://github.com/user-attachments/assets/ea90600d-656f-4dc1-8d98-0390f9cb6d99">
 
 ## Examples of questions you can ask spatiAlytica:
 * Download all datasets in HTAN with 10x Visium spatial information for melanoma.
