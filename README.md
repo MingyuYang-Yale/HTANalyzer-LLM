@@ -1,4 +1,4 @@
-# spatiAlytica: a large language model for analyzing HTAN spatial transcriptomics data 
+# spatiAlytica: Large Language Model for Analyzing HTAN Spatial Transcriptomics Data 
 
 ## Team members
 Team Leader: Arun Das
