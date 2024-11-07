@@ -36,9 +36,6 @@ A reasoning engine directs the user's queries to the correct agent.
 * What is the expression level of gene x in sample y?
 * Show me the spatial location of the malignant cells.
 
-## Our workflow details
-<img width="619" alt="Screenshot 2024-11-07 at 8 58 26 AM" src="https://github.com/user-attachments/assets/9bff23be-f4e4-4587-8d51-a074d3fa2598">
-
 ## Installation
 
 ### Platform Requirements
@@ -55,6 +52,33 @@ matplotlib==3.7.1
 google==2.0.3
 vertexai==1.70.0
 anndata-0.11.0
+```
 
+### Authentication Setup
 
+1. Create a Synapse account and generate a personal authentication token with full view, download, and modify permissions
+2. Use the token in your code:
+
+```python
+import synapseclient
+syn = synapseclient.login(authToken="your_token_here")
+```
+
+### Required Imports
+```
+import pandas_gbq
+from google.cloud import bigquery
+import pandas as pd
+import base64
+import vertexai
+from vertexai.generative_models import GenerativeModel, Part, SafetySetting
+import scanpy, squidpy
+import matplotlib.pyplot as plt
+```
+
+### Vertex AI Setup
+```
+vertexai.init(project="isb-cgc-external-004", location="us-central1")
+model = GenerativeModel("gemini-1.5-flash-002")
+```
 
