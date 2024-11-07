@@ -56,7 +56,7 @@ anndata-0.11.0
 
 ### Authentication Setup
 
-1. Create a Synapse account and [generate a personal authentication token] (https://accounts.synapse.org/authenticated/personalaccesstokens?appId=synapse.org) with full view, download, and modify permissions
+1. Create a Synapse account and [generate a personal authentication token](https://accounts.synapse.org/authenticated/personalaccesstokens?appId=synapse.org) with full view, download, and modify permissions.
 2. Use the token in your code:
 
 ```python
