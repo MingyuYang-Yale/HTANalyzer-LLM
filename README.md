@@ -33,6 +33,20 @@ Our approach uses three agents to allow for data integration with HTAN resources
 ## Our workflow details
 <img width="619" alt="Screenshot 2024-11-07 at 8 58 26 AM" src="https://github.com/user-attachments/assets/9bff23be-f4e4-4587-8d51-a074d3fa2598">
 
+## Installation
 
+### Platform Requirements
+spatiAlytica is designed to run on Google Cloud Platform's Vertex AI.
+
+### Dependencies
+Required Python packages:
+```python
+synapseclient==4.6.0
+scanpy==1.10.3
+squidpy==1.6.1
+pandas==2.2.2
+matplotlib==3.7.1
+google==2.0.3
+vertexai==1.70.0
 
 
