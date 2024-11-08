@@ -52,6 +52,7 @@ A reasoning engine directs the user's queries to the correct agent.
 <img width="682" alt="image" src="https://github.com/user-attachments/assets/700a8602-6ab0-48c6-8668-1730468c0e91">
 
 **Calculate the cell-cell interactions network of the ANGPTL pathway and show me the cell-cell interaction between ANGPTL4	and CDH11.**
+
 <img width="620" alt="image" src="https://github.com/user-attachments/assets/6a096935-1f50-47fe-ac67-92bab71c5539">
 
 ## Installation
