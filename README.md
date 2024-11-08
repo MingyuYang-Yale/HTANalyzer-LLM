@@ -1,5 +1,4 @@
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/ebeeeaab-7752-4f2e-935e-325364ff3394">
-
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/ebeeeaab-7752-4f2e-935e-325364ff3394">
 
 # HTANalyzer-LLM: Large Language Model for Analyzing HTAN Spatial Transcriptomics Data 
 
