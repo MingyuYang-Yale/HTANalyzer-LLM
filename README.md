@@ -43,12 +43,15 @@ A reasoning engine directs the user's queries to the correct agent.
 
 ## Examples of questions you can ask HTANalyzer:
 **Can you download the synapse data 'syn51133602' to /content/datasets/?**
+
 <img width="565" alt="image" src="https://github.com/user-attachments/assets/0f40ffbb-3942-4de0-9292-babeb6451b8b">
 
 **Show me a UMAP of the data.**
+
 <img width="668" alt="image" src="https://github.com/user-attachments/assets/b21465fb-9804-4727-8745-7edba73fad99">
 
 **Show me a spatial plot of genes SAMD11 and NOC2L and cell types.**
+
 <img width="682" alt="image" src="https://github.com/user-attachments/assets/700a8602-6ab0-48c6-8668-1730468c0e91">
 
 **Calculate the cell-cell interactions network of the ANGPTL pathway and show me the cell-cell interaction between ANGPTL4	and CDH11.**
