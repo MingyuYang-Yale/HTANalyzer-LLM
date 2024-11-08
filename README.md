@@ -1,13 +1,23 @@
 # spatiAlytica: Large Language Model for Analyzing HTAN Spatial Transcriptomics Data 
 
+2024 Human Tumor Atlas Network Data Jamboree
+
+November 6, 2024 - November 8, 2024
+
 ## Team members
-Team Leader: Arun Das
+**Team Leader**: Arun Das (University of Pittsburgh)
 
-Tech Lead: Krithika Bhuvaneshwar
+**Tech Lead**: Krithika Bhuvaneshwar (Frederick National Lab)
 
-Writers: Jeanna Arbesfeld-Qiu, Sanna Madan, Noam Gaiger
-
-Members: Ashish Mahabal, Khoa Huynh, Mingyu Yang, Noam Gaiger
+**Writers**:
+- Jeanna Arbesfeld-Qiu (Harvard Medical School)
+- Sanna Madan (National Cancer Institute)
+- Noam Gaiger (Yale University)
+  
+**Members**:
+- Ashish Mahabal (Caltech)
+- Khoa Huynh (Virginia Commonwealth University)
+- Mingyu Yang (Yale University)
 
 ## Background
 *In situ* spatial transcriptomic (ST) technologies are a breakthrough class of methods that have redefined cancer biology research by providing insight into tumor microenvironment structure, organization, and heterogeneity. ST data have also allowed researchers to understand cell-cell signaling, such as in the context of the tumor microenvironment or the formation of developmental gradients. 
@@ -52,6 +62,7 @@ matplotlib==3.7.1
 google==2.0.3
 vertexai==1.70.0
 anndata-0.11.0
+numpy==1.26.4
 ```
 
 ### Authentication Setup
@@ -81,4 +92,27 @@ import matplotlib.pyplot as plt
 vertexai.init(project="your_project_id_here", location="us-central1")
 model = GenerativeModel("gemini-1.5-flash-002")
 ```
+## Our workflow
 
+To create each agent, we engineered prompts based on data and metadata structure, tutorial examples for single-cell RNA-seq and 10X Visium data from Python packages (e.g. [SquidPy](https://squidpy.readthedocs.io/en/stable/notebooks/tutorials/index.html), [ScanPy](https://scanpy-tutorials.readthedocs.io/en/latest/spatial/basic-analysis.html), and [COMMOT](https://commot.readthedocs.io/en/latest/tutorials.html)), and iterative LLM-based optimization of prompts. The code for each agent can be found on the following 
+
+Agent 1: [agent1.ipynb](https://github.com/NCI-HTAN-Jamborees/spatiAlytica-LLM/blob/main/agent1.ipynb)
+
+Agent 2: 
+
+Agent 3: 
+
+### Issues we encountered
+
+- While using Google CoLab notebooks, we occasionally ran into an error regarding the CuPy library, which prevented import of various python packages. We solved this by running the following line in terminal.
+  ```
+  sudo apt-get install libnvidia-compute-550
+  ```
+- The output from the spatiAlytica can be stochastic. We attempted to mitigate this by reducing the temperature of the LLM to 0.3 - 0.5 and adding additional detail to the prompts.
+
+### Future Directions
+- Creating a recursive error-handling agent to debug code generated from Agent 1 and Agent 2.
+- Improve user functionality by developing a "chatbot" frontend and developing a package for users to easily download spatiAlytica.
+- Agent 1 (Data Integration) could be improved by adding prompts related to clinical metadata available on HTAN google buckets.
+- Testing different LLM APIs (e.g. OpenAI, Claude)
+- Currently, spatiAlytica is only designed for 10X Visium analysis and we hope to expand ST analysis to additional technologies and bioinformatics tools.
