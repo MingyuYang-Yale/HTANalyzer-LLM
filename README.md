@@ -43,8 +43,7 @@ A reasoning engine directs the user's queries to the correct agent.
 
 ## Examples of questions you can ask spatiAlytica:
 * Download all datasets in HTAN with 10x Visium spatial information for melanoma.
-* What is the expression level of gene x in sample y?
-* Show me the spatial location of the malignant cells.
+* Calculate the 
 
 ## Installation
 
@@ -55,6 +54,7 @@ spatiAlytica is designed to run on Google Cloud Platform's Vertex AI. Users shou
 Required Python packages:
 ```python
 synapseclient==4.6.0
+gcsfs==2024.6.1
 scanpy==1.10.3
 squidpy==1.6.1
 pandas==2.2.2
@@ -94,7 +94,7 @@ model = GenerativeModel("gemini-1.5-flash-002")
 ```
 ## Our workflow
 
-To create each agent, we engineered prompts based on data and metadata structure, tutorial examples for single-cell RNA-seq and 10X Visium data from Python packages (e.g. [SquidPy](https://squidpy.readthedocs.io/en/stable/notebooks/tutorials/index.html), [ScanPy](https://scanpy-tutorials.readthedocs.io/en/latest/spatial/basic-analysis.html), and [COMMOT](https://commot.readthedocs.io/en/latest/tutorials.html)), and iterative LLM-based optimization of prompts. The code for each agent can be found on the following 
+To create each agent, we engineered prompts based on data and metadata structure, tutorial examples for single-cell RNA-seq and 10X Visium data from Python packages (e.g. [SquidPy](https://squidpy.readthedocs.io/en/stable/notebooks/tutorials/index.html), [ScanPy](https://scanpy-tutorials.readthedocs.io/en/latest/spatial/basic-analysis.html), and [COMMOT](https://commot.readthedocs.io/en/latest/tutorials.html)), and iterative LLM-based optimization of prompts. The code for each agent can be found on the following Jupyter notebooks:
 
 Agent 1: [agent1.ipynb](https://github.com/NCI-HTAN-Jamborees/spatiAlytica-LLM/blob/main/agent1.ipynb)
 
