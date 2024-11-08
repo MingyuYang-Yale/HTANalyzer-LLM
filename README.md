@@ -38,7 +38,7 @@ Our approach uses three agents to allow for:
 A reasoning engine directs the user's queries to the correct agent.
 <div style="text-align: center;">
   <img width="619" alt="image" src="https://github.com/user-attachments/assets/acc25beb-c29a-4967-83fc-67643ec8af37">
-  <img width="602" alt="image" src="https://github.com/user-attachments/assets/2c3321d6-4dea-4d68-a5ca-46b7b75135ce">
+  <img width="619" alt="image" src="https://github.com/user-attachments/assets/2c3321d6-4dea-4d68-a5ca-46b7b75135ce">
 </div>
 
 ## Examples of questions you can ask HTANalyzer:
