@@ -7,7 +7,7 @@ November 6, 2024 - November 8, 2024
 ## Team members
 **Team Leader**: Arun Das (University of Pittsburgh)
 
-**Tech Lead**: Krithika Bhuvaneshwar (Frederick National Lab)
+**Tech Lead**: Krithika Bhuvaneshwar (Advanced Biomedical Computational Science (ABCS), Frederick National Lab)
 
 **Writers**:
 - Jeanna Arbesfeld-Qiu (Harvard Medical School)
