@@ -111,11 +111,13 @@ model = GenerativeModel("gemini-1.5-flash-002")
 
 To create each agent, we engineered prompts based on data and metadata structure, examples of Google BigQuery and synpase client usage, tutorials of single-cell RNA-seq and 10X Visium analysis from Python packages (e.g. [SquidPy](https://squidpy.readthedocs.io/en/stable/notebooks/tutorials/index.html), [ScanPy](https://scanpy-tutorials.readthedocs.io/en/latest/spatial/basic-analysis.html), and [COMMOT](https://commot.readthedocs.io/en/latest/tutorials.html)), and iterative LLM-based optimization of prompts. The code for each agent can be found on the following Jupyter notebooks:
 
+Super Agent: [demo_app_with_super_agent.ipynb](https://github.com/NCI-HTAN-Jamborees/HTANalyzer-LLM/blob/main/demo_app_with_super_agent.ipynb)
+
 Agent 1: [agent1.ipynb](https://github.com/NCI-HTAN-Jamborees/HTANalyzer-LLM/blob/main/agent1.ipynb)
 
 Agent 2: [agent2.ipynb](https://github.com/NCI-HTAN-Jamborees/HTANalyzer-LLM/blob/main/agent2.ipynb)
 
-Agent 3: 
+Agent 3: [agent3.ipynb](https://github.com/NCI-HTAN-Jamborees/HTANalyzer-LLM/blob/main/agent3.ipynb)
 
 ### Issues we encountered
 
