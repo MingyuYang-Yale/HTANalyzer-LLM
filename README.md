@@ -117,9 +117,9 @@ Agent 3:
 
 ### Issues we encountered
 
-- While using Google CoLab notebooks, we occasionally ran into an error regarding the CuPy library, which prevented import of various python packages. We solved this by running the following line in terminal.
+- While using Google CoLab notebooks, we occasionally ran into an error regarding the CuPy library, which prevented import of various python packages. We solved this by running the following line.
   ```
-  sudo apt-get install libnvidia-compute-550
+  !sudo apt-get install libnvidia-compute-550
   ```
 - The output from the HTANalyzer can be stochastic. We attempted to mitigate this by reducing the temperature of the LLM to 0.3 - 0.5 and adding additional detail to the prompts.
 
